@@ -9,32 +9,138 @@
   <title>Document</title>
   <link rel="stylesheet" href="libreria/bootstrap-5.2/css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-sena1 p-3">
-    <div class="container">
-      <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        </ul>
-        <a class="navbar-brand" href="#">
-          PORTAFOLIO
-        </a>
-        <a class="navbar-brand" href="#">
-          ABOUT
-        </a>
-        <a class="navbar-brand" href="#">
-          CONTACT
-        </a>
-      </div>
-    </div>
-  </nav>
+    <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg bg-sena1 p-3">
+            <div class="container">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <a class="navbar-brand" href="#">
+                  PORTAFOLIO
+                </a>
+                <a class="navbar-brand" href="#">
+                  ABOUT
+                </a>
+                <a class="navbar-brand" href="#">
+                  CONTACT
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="row bg-fondoverde">
+          <div clase="col-md-12">
+            <center>
+              <img src="img/avataaars.svg" class=" img" alt="...">
+            </center>
+            <br>
+            <center>
+              <h1 class="text-uppercase mb-0">Start Bootstrap</h1>
+            </center>
+            <br>
+    
+            <center>
+              <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+              </div>
+            </center>
+            <br>
+            <center>
+              <h3 class="mb-0">Graphic Artist - Web Designer - Illustrator</h3>
+            </center>
+    
+          </div>
+        </div>
+    
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+          <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+              <!-- Portfolio Item 1-->
+              <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/cabin.png" alt="..." />
+                </div>
+              </div>
+              <!-- Portfolio Item 2-->
+              <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/cake.png" alt="..." />
+                </div>
+              </div>
+              <!-- Portfolio Item 3-->
+              <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/circus.png" alt="..." />
+                </div>
+              </div>
+              <!-- Portfolio Item 4-->
+              <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/game.png" alt="..." />
+                </div>
+              </div>
+              <!-- Portfolio Item 5-->
+              <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/safe.png" alt="..." />
+                </div>
+              </div>
+              <!-- Portfolio Item 6-->
+              <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/submarine.png" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 </body>
 
 
