@@ -13,6 +13,8 @@ nav a:hover {
   color: lightslategray !important;
 }
 
+body {}
+
 .img {
   width: 250px;
 }
@@ -190,3 +192,4 @@ body {
 .copyright {
   background-color: #1a252f;
 }
+
